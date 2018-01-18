@@ -1,0 +1,178 @@
+/* ------------------------------------------------------------|
+| MAIN COMPONENTS
+*-------------------------------------------------------------*/
+
+
+body {
+    font-family: Montserrat;
+    height:100%;
+}
+
+/* ------------------------------------------------------------|
+| SECTIONS
+*-------------------------------------------------------------*/
+
+
+
+
+section {
+    background-color:#edfbff;
+    width:100%;
+
+
+}
+
+
+
+/*Section Background Paralax Effect*/
+.paralax {
+    /* The image used */
+    background-image: url("../img/background.jpg");
+
+    width:100%;
+    /*Align section-title in middle*/
+
+
+    /* Set a specific height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.section-skills{
+    background-color:white;
+    min-height: 35vh;
+}
+
+
+.section-my-work {
+    background-color:#f5f5f5;
+    width: inherit;
+    min-height: 100vh;
+}
+
+.section-main-title {
+    color:#edfbff;
+    font-size:2.5rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    font-weight: 700;
+    padding-top:35vh; /*Go to center position*/
+    text-align: center;
+}
+
+.section-scroll{
+    padding-top:90vh;
+}
+
+.section-cta {
+    margin-top: 10vh;
+}
+
+.section-title {
+    color:#6d6a75;
+    font-weight: 600;
+    font-size:2.5rem;
+    text-align: center;
+    padding-top: 6vh;
+}
+
+.section-subtitle {
+    font-weight: 300;
+    font-size:1.5rem;
+    padding-top:1rem;
+    margin-bottom: 1rem;
+}
+
+.section-container {
+
+
+    width: 50%;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    border-color:gray;
+    border-style: solid;
+    border-width:1px;
+
+}
+
+.section-container > p {
+    color:#6d6a75;
+}
+
+
+
+
+/* ------------------------------------------------------------|
+| SKILLS
+*-------------------------------------------------------------*/
+
+.skill-wrapper{
+
+    width: inherit;
+    min-height: 30rem;
+    /*background-color:blue;*/
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+
+@media screen and (max-width: 500px) {
+.skill-wrapper {
+    display: inline-block;
+}
+}
+
+
+.skill {
+    display: inline-block;
+    float:left;
+
+
+    width: 40vh;
+    min-height: 30vh;
+
+
+   /*border-color:gray;*/
+    /*border-style: solid;*/
+    /*border-width:1px;*/
+    /**/
+
+
+    margin:3rem;
+    text-align: center;
+    padding-top: 4vh;
+
+}
+
+
+.skill-icon {
+    font-size:4rem;
+    color: #eec643;
+    margin-bottom: .3rem;
+}
+
+.skill-title {
+    color: #393e41;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.skill-description {
+    padding:2rem;
+    text-align: center;
+    font-weight: lighter;
+    font-size:1rem;
+}

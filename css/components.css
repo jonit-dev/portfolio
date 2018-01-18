@@ -1,0 +1,98 @@
+
+
+/* ------------------------------------------------------------|
+| BUTTONS
+*-------------------------------------------------------------*/
+
+
+.btn {
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border: .1rem solid #eec643; /* Green */
+    border-radius: 2rem;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    font-size: .8rem;
+    font-weight: 600;
+    font-family: Montserrat;
+
+
+    /*Hover effect*/
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+
+.btn:hover {
+    background-color: #eec643; /* Green */
+    color: black;
+}
+
+
+
+
+/* ------------------------------------------------------------|
+| SCROLL DOWM MOUSE ANIMATION
+*-------------------------------------------------------------*/
+
+.scroll-downs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 8rem;
+    left: 0;
+    margin: auto;
+
+    width :34px;
+    height: 55px;
+}
+.mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+}
+.scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+}
+@keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+}
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
