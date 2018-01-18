@@ -8,6 +8,10 @@ body {
     height:100%;
 }
 
+p {
+    line-height: 1.4rem;
+}
+
 /* ------------------------------------------------------------|
 | SECTIONS
 *-------------------------------------------------------------*/
@@ -54,6 +58,7 @@ section {
     background-color:#f5f5f5;
     width: inherit;
     min-height: 100vh;
+    padding-bottom: 1rem;
 }
 
 .section-main-title {
@@ -86,25 +91,132 @@ section {
     font-weight: 300;
     font-size:1.5rem;
     padding-top:1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
 }
 
 .section-container {
 
+    margin-bottom: 1rem;
 
-    width: 50%;
 
-    margin-left:auto;
-    margin-right:auto;
+    width: inherit;
 
-    border-color:gray;
-    border-style: solid;
-    border-width:1px;
+    min-height: 30vh;
+
+    /*width: inherit;*/
+    /*min-height: 30rem;*/
+    /*background-color:blue;*/
+
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+
+    /*border-color:gray;*/
+    /*border-style: solid;*/
+    /*border-width:1px;*/
+
+
 
 }
 
-.section-container > p {
+.section-box {
+
+    display: inline-block;
+    float:left;
+
+
+    width: 30vw;
+    min-height: 30vh;
+
+
+
+
+    /*border-color:red;*/
+    /*border-style: solid;*/
+    /*border-width:1px;*/
+}
+
+.box-left {
+    float:left;
+}
+.box-right {
+    float:right;
+}
+
+.section-box > h1 {
+    font-weight: 700;
+    font-size:1.75rem;
+    padding:1rem;
+    color: #615f67;
+}
+
+.section-box > p {
     color:#6d6a75;
+    font-weight: normal;
+
+    font-size:0.87rem;
+    margin:1rem
+}
+
+.section-box > img {
+    width:inherit;
+    height: inherit;
+}
+
+.mobile-only {
+    display: none;
+}
+
+.desktop-only {
+    display: inline-block;
+}
+
+/*DESKTOP ONLY CODE*/
+
+@media screen and (min-width: 500px) {
+
+    .section-container {
+        margin-bottom: 10rem;
+    }
+}
+
+/*MOBILE ONLY CODE*/
+@media screen and (max-width: 500px) {
+
+    .mobile-only {
+        display: inline-block;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+
+    .section-subtitle {
+        margin-bottom: 0;
+    }
+
+    .section-container {
+        display: inline-block;
+    }
+    .section-box {
+        width: inherit;
+        min-height: 30vh;
+        margin-top:1rem;
+        padding: 1rem;
+        text-align: center;
+    }
+    .section-box > p {
+        text-align: center;
+    }
+
+
+    .section-box > img {
+        width:100%;
+        height: 100%;
+
+    }
+
+
 }
 
 
@@ -118,7 +230,6 @@ section {
 
     width: inherit;
     min-height: 30rem;
-    /*background-color:blue;*/
 
     display: flex;
     align-items: center;
@@ -140,16 +251,8 @@ section {
     display: inline-block;
     float:left;
 
-
     width: 40vh;
     min-height: 30vh;
-
-
-   /*border-color:gray;*/
-    /*border-style: solid;*/
-    /*border-width:1px;*/
-    /**/
-
 
     margin:3rem;
     text-align: center;
@@ -171,6 +274,7 @@ section {
 }
 
 .skill-description {
+    line-height: 1.4rem;
     padding:2rem;
     text-align: center;
     font-weight: lighter;
