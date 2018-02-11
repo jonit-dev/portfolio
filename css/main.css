@@ -89,7 +89,7 @@ section {
 
     .section-title {
         font-size: 2rem;
-        padding-bottom:2rem;
+        padding-bottom: 2rem;
     }
 
     .section-subtitle {
@@ -121,12 +121,8 @@ section {
 
 .section-box {
 
-    display: inline-block;
-    float: left;
-
-    width: 30vw;
     min-height: 30vh;
-
+    width: 50%;
     /*border-color:red;*/
     /*border-style: solid;*/
     /*border-width:1px;*/
@@ -156,8 +152,16 @@ section {
 }
 
 .section-box > img {
-    width: inherit;
-    height: inherit;
+    max-width: 100%;
+    height: auto;
+    padding: 3rem;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.section-my-work header .section-title {
+    padding-bottom: 4rem;
 }
 
 .mobile-only {
@@ -178,7 +182,6 @@ section {
         margin-bottom: 10rem;
     }
 }
-
 
 /* ------------------------------------------------------------|
 | MOBILE ONLY CODE
@@ -203,7 +206,7 @@ section {
     }
 
     .section-box {
-        width: inherit;
+        width: 100%;
         min-height: 30vh;
         margin-top: 1rem;
         padding: 1rem;
@@ -231,16 +234,15 @@ section {
     width: inherit;
     min-height: 30rem;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
+    float:left;
+    margin-top:2rem;
 
     /*border-color:red;*/
     /*border-style: solid;*/
     /*border-width:1px;*/
 
 }
-
 
 .skill {
     display: inline-block;
@@ -249,7 +251,6 @@ section {
     /*width: 40vw;*/
     width: 33.33%;
     min-height: 20vh;
-
 
     margin-bottom: 2rem;
     text-align: center;
@@ -262,25 +263,23 @@ section {
 }
 
 .skill-icon {
-    font-size: 4rem;
-    color: #eec643;
     margin-bottom: .3rem;
+    min-height: 76px;
 }
 
 .skill-title {
     color: #393e41;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-weight: bolder;
 }
 
 .skill-description {
     line-height: 1.4rem;
-    padding: 2rem;
+    padding: 2rem 8vw;
     text-align: center;
     font-weight: lighter;
     font-size: 1rem;
 }
-
 
 
 /*MOBILE ONLY CODE*/
@@ -291,16 +290,14 @@ section {
     }
 
     .skill {
-        width:100%;
+        width: 100%;
         /*padding-left:4rem;*/
         /*padding-right:4rem;*/
     }
 
-
-
     .skill-description {
-       margin-left:6vw;
-        margin-right:6vw;
+        margin-left: 6vw;
+        margin-right: 6vw;
 
     }
 }
