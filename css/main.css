@@ -167,7 +167,10 @@ section {
     display: inline-block;
 }
 
-/*DESKTOP ONLY CODE*/
+/* ------------------------------------------------------------|
+| DESKTOP ONLY CODE
+*-------------------------------------------------------------*/
+
 
 @media screen and (min-width: 500px) {
 
@@ -176,7 +179,11 @@ section {
     }
 }
 
-/*MOBILE ONLY CODE*/
+
+/* ------------------------------------------------------------|
+| MOBILE ONLY CODE
+*-------------------------------------------------------------*/
+
 @media screen and (max-width: 500px) {
 
     .mobile-only {
