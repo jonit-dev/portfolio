@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a7d90c1-6953-4df4-9e79-83f94a1001c9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/skills/angular.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/skills/bootstrap.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/skills/laravel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/cf.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/doctorin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/dosagepro.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="normalize.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/normalize.css">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="818">
-              <caret line="340" column="1" lean-forward="false" selection-start-line="340" selection-start-column="1" selection-end-line="340" selection-end-column="1" />
+            <state relative-caret-position="509">
+              <caret line="162" column="21" lean-forward="false" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -41,31 +41,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="92" column="30" lean-forward="false" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+            <state relative-caret-position="506">
+              <caret line="152" column="52" lean-forward="false" selection-start-line="152" selection-start-column="52" selection-end-line="152" selection-end-column="52" />
               <folding>
                 <element signature="n#section#0;n#article#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="277" column="19" lean-forward="false" selection-start-line="277" selection-start-column="19" selection-end-line="277" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grid.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/grid.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -93,6 +73,10 @@
       <find>my-wor</find>
       <find>skill-icon</find>
       <find>SKILL</find>
+      <find>skill-wrapp</find>
+      <find>wrapper</find>
+      <find>section-box</find>
+      <find>wrapper-border</find>
     </findStrings>
     <replaceStrings>
       <replace>1000px</replace>
@@ -110,6 +94,7 @@
         <option value="$PROJECT_DIR$/css/reset.css" />
         <option value="$PROJECT_DIR$/css/normalize.css" />
         <option value="$PROJECT_DIR$/css/grid.css" />
+        <option value="$PROJECT_DIR$/css/cf.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
       </list>
@@ -165,13 +150,18 @@
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="skills" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,6 +181,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\portfolio\img\portfolio" />
       <recent name="C:\xampp\htdocs\portfolio\img\skills" />
       <recent name="C:\xampp\htdocs\portfolio" />
       <recent name="C:\xampp\htdocs\portfolio\css\external" />
@@ -231,12 +222,12 @@
       <workItem from="1516512421528" duration="2895000" />
       <workItem from="1516516607507" duration="207000" />
       <workItem from="1516516886588" duration="1132000" />
-      <workItem from="1518375034932" duration="6203000" />
+      <workItem from="1518375034932" duration="10701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22947000" />
+    <option name="totallyTimeSpent" value="27445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -414,26 +405,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/normalize.css">
+    <entry file="file://$PROJECT_DIR$/css/grid.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
-          <caret line="340" column="1" lean-forward="false" selection-start-line="340" selection-start-column="1" selection-end-line="340" selection-end-column="1" />
+        <state relative-caret-position="-7">
+          <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/grid.css">
+    <entry file="file://$PROJECT_DIR$/css/cf.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="550">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="340" column="1" lean-forward="false" selection-start-line="340" selection-start-column="1" selection-end-line="340" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="92" column="30" lean-forward="false" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+        <state relative-caret-position="506">
+          <caret line="152" column="52" lean-forward="false" selection-start-line="152" selection-start-column="52" selection-end-line="152" selection-end-column="52" />
           <folding>
             <element signature="n#section#0;n#article#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -442,8 +441,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="277" column="19" lean-forward="false" selection-start-line="277" selection-start-column="19" selection-end-line="277" selection-end-column="19" />
+        <state relative-caret-position="509">
+          <caret line="162" column="21" lean-forward="false" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
           <folding />
         </state>
       </provider>
