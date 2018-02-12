@@ -80,7 +80,7 @@ section {
 
 }
 
-.section-main-title {
+.paralax header h2{
     color: #edfbff;
     font-size: 2.5rem;
     padding-left: 1rem;
@@ -298,7 +298,7 @@ section {
 
 }
 
-.education-box-title h1{
+.education-box-title h2{
     font-weight: bolder;
     color:#393E41;
     font-size:1rem;
@@ -381,7 +381,7 @@ section {
 
 }
 
-.interests-box-title h1{
+.interests-box-title h2{
     font-weight: bolder;
     color:#393E41;
     font-size:1rem;
@@ -394,7 +394,7 @@ section {
     font-size:.7rem;
 }
 
-.interests-box-content h1{
+.interests-box-content h2{
     font-weight: bolder;
     color:#6D6A75;
     font-size:1rem;
