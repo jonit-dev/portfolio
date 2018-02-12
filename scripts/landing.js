@@ -22,7 +22,7 @@ $(function() {
         lastHeight = height;
         //update height value
         height = $(window).scrollTop();
-        console.log(height);
+        // console.log(height);
 
         if(lastHeight < height) {
             // console.log("moving scroll down");
