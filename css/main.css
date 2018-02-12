@@ -5,6 +5,7 @@
 body {
     font-family: Montserrat, Arial, serif;
     height: 100%;
+    overflow-x: hidden;
 }
 
 a {
@@ -237,6 +238,14 @@ section {
 
 @media screen and (max-width: 700px) {
 
+
+    .section-box img {
+       padding-top:0;
+        margin-top:-2rem;
+
+    }
+
+
     .mobile-only {
         display: inline-block;
     }
@@ -368,7 +377,7 @@ section {
 
 .interests-box {
     background-color:#F5F5F5;
-    width:100%;
+    width:51vw;
     height:auto;
     min-height: 12rem;
     margin-top:2rem;
@@ -432,11 +441,12 @@ section {
 @media screen and (min-width: 700px) {
 
     .interests-box-wrapper {
+
         width:75%;
         margin-top:2rem;
         padding-left:11rem;
         padding-right:0;
-        margin-left:24rem;
+        margin-left:15rem;
     }
 
 

@@ -14,7 +14,7 @@ $(function() {
     /* INIT SCROLLIFY CONFIG =========================================== */
     let triggerPosition;
     let marginValue = -11;
-    let marginValue2 = 24;
+    let marginValue2 = 15;
     let lastHeight, height;
 
     $(window).scroll(function() {
