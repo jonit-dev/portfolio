@@ -22,10 +22,23 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/components.css">
 
+    <!--jQuery-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+    <!--Scrollify-->
+    <!--<script src="node_modules/jquery-scrollify/jquery.scrollify.js"></script>-->
+
 
     <!--ParticlesJS-->
     <script src="node_modules/particles.js/particles.js"></script>
     <script src="scripts/particleJs/app.js"></script>
+
+
+    <!--Landing Code-->
+    <script src="scripts/landing.js"></script>
+
+
+
 
 </head>
 <body>
@@ -46,6 +59,7 @@
     <article role="article">
 
 
+        <!--Call to action section-->
         <section class="paralax col12">
 
 
@@ -53,7 +67,7 @@
                 <div class="section-main-title">Hi, I'm João! I'm a full stack web developer.
 
                     <br>
-                    <a href="#" class="btn section-cta">CALL TO ACTION HERE</a>
+                    <a href="javascript:void(0)" class="btn section-cta" id="cta-click">CALL TO ACTION HERE</a>
 
                 </div>
             </header>
@@ -66,14 +80,12 @@
             </div>
 
 
-
-
         </section>
 
         <!--Skills Section-->
-        <section class="section-skills col12">
 
-            <header>
+        <section class="section-skills col12" data-section-name="skills">
+        <header>
                 <div class="section-title">
                     Main Skills
                     <div class="section-subtitle">
@@ -134,7 +146,7 @@
         <!--end skills section-->
 
         <!--My Work Section-->
-        <section class="section-my-work col12">
+        <section class="section-my-work col12" data-section-name="portfolio">
 
             <header>
                 <div class="section-title">
@@ -217,8 +229,20 @@
 </main>
 
 
-<footer role="contentinfo">
+<footer role="contentinfo" class="col12">
     <!--Footer information-->
+
+    <div class="contact-wrapper col3">
+        <h1>Contact Info</h1>
+
+        <ul>
+            <li><img src="img/footer/email.png" alt="Email">
+                <span class="contact-text"><a href="mailto:joaopaulofurtado@live.com">joaopaulofurtado@live.com</a></span></li>
+            <li><img src="img/footer/github.png" alt="Github"><span class="contact-text"><a href="https://github.com/jonit-dev" target="_blank">/jonit-dev</a></span></li>
+            <li><img src="img/footer/linkedin.png" alt="Linkedin"><span class="contact-text"><a href="https://www.linkedin.com/in/jonit-dev/" target="_blank">/in/jonit-dev</a></span></li>
+        </ul>
+    </div>
+
 
     <!--<address>-->
     <!--By <a href="mailto:joaopaulofurtado@live.com">João Paulo Furtado Silva</a>-->

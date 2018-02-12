@@ -3,8 +3,13 @@
 *-------------------------------------------------------------*/
 
 body {
-    font-family: Montserrat, Arial;
+    font-family: Montserrat, Arial, serif;
     height: 100%;
+}
+
+a {
+    color:inherit;
+    text-decoration: none;
 }
 
 p {
@@ -339,4 +344,53 @@ section {
 
     }
 }
+
+
+/* ------------------------------------------------------------|
+| FOOTER
+*-------------------------------------------------------------*/
+
+footer {
+    width: 100%;
+    height:33vh;
+    background-color:#393E41;
+    background-image: url("../img/background-shape.png");
+    background-position:initial;
+    background-size: cover;
+}
+
+.contact-wrapper {
+    width:auto;
+    margin-left:12%;
+    margin-top:3vw;
+    color:white;
+}
+
+.contact-wrapper h1 {
+    color:#898693;
+    font-weight: bolder;
+    font-size:1.3rem;
+    padding-bottom: 1.5rem;
+}
+
+.contact-wrapper ul li img {
+    position:relative;
+    top:0.4rem;
+    left:0;
+}
+
+.contact-wrapper ul li{
+    /*border: solid 1px hotpink;*/
+    margin-bottom: 0.6rem;
+
+}
+
+.contact-text {
+    margin-left:0.5rem;
+}
+
+
+
+
+
 
