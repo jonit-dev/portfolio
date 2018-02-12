@@ -65,10 +65,13 @@ section {
 
 }
 
+/* SECTIONS =========================================== */
+
 .section-skills {
     background-color: white;
     min-height: 35vh;
 }
+
 
 .section-my-work {
     background-color: #f5f5f5;
@@ -86,6 +89,8 @@ section {
     padding-top: 35vh; /*Go to center position*/
     text-align: center;
 }
+
+/* END SECTIONS =========================================== */
 
 .section-scroll {
     padding-top: 90vh;
@@ -269,8 +274,185 @@ section {
 }
 
 /* ------------------------------------------------------------|
-| SKILLS
+| EDUCATION
 *-------------------------------------------------------------*/
+
+.section-education {
+    background-color: white;
+    min-height: 29rem;
+}
+
+
+.education-box {
+    background-color:#F5F5F5;
+   width:100%;
+    height:auto;
+    min-height: 12rem;
+    margin-top:2rem;
+    padding:2rem;
+    background-image: url("../img/shape.png");
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 0;
+
+}
+
+.education-box-title h1{
+    font-weight: bolder;
+    color:#393E41;
+    font-size:1rem;
+}
+
+.education-box-title p{
+    font-weight: normal;
+    color:#000000;
+    font-size:.7rem;
+}
+
+.education-box-content h1{
+    font-weight: bolder;
+    color:#393E41;
+    font-size:1rem;
+}
+
+.education-box-content p{
+    font-weight: normal;
+    color:#6D6A75;
+    font-size:.8rem;
+    margin-top:1rem;
+}
+
+
+
+/*MOBILE ONLY CODE*/
+@media screen and (max-width: 700px) {
+
+    .education-box-wrapper {
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+
+    .education-box {
+        padding:1rem;
+    }
+
+
+}
+
+/*DESKTOP ONLY CODE*/
+
+@media screen and (min-width: 700px) {
+
+    .education-box-wrapper {
+        width:75%;
+        margin-top:2rem;
+        padding-left:11rem;
+        padding-right:0;
+        margin-left:-11rem;
+    }
+
+}
+
+
+
+/* ------------------------------------------------------------|
+| INTERESTS
+*-------------------------------------------------------------*/
+
+.section-interests {
+    background-color: white;
+    min-height: 50rem;
+}
+
+
+.interests-box {
+    background-color:#F5F5F5;
+    width:100%;
+    height:auto;
+    min-height: 12rem;
+    margin-top:2rem;
+    padding:2rem;
+    background-image: url("../img/shape-down.png");
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-position-x: -1rem;
+    background-position-y: 100%;
+
+}
+
+.interests-box-title h1{
+    font-weight: bolder;
+    color:#393E41;
+    font-size:1rem;
+}
+
+.interests-box-title p{
+    font-weight: normal;
+    color:#000000;
+    font-size:.7rem;
+}
+
+.interests-box-content h1{
+    font-weight: bolder;
+    color:#6D6A75;
+    font-size:1rem;
+
+}
+
+.interests-box-content p{
+    font-weight: normal;
+    color:#6D6A75;
+    font-size:.8rem;
+    margin-top:1rem;
+    margin-bottom:2rem;
+}
+
+.interests-box-hr{
+    width:93%;
+    height:1px;
+    background-color:#E4E4EA;
+
+    margin:2rem;
+
+}
+
+
+
+/*MOBILE ONLY CODE*/
+@media screen and (max-width: 700px) {
+
+    .interests-box-wrapper {
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+
+    .interests-box {
+        padding:1rem;
+    }
+
+
+}
+
+/*DESKTOP ONLY CODE*/
+
+@media screen and (min-width: 700px) {
+
+    .interests-box-wrapper {
+        width:75%;
+        margin-top:2rem;
+        padding-left:11rem;
+        padding-right:0;
+        margin-left:24rem;
+    }
+
+}
+
+
+
+    /* ------------------------------------------------------------|
+    | SKILLS
+    *-------------------------------------------------------------*/
 
 .skill-wrapper {
 
@@ -307,7 +489,7 @@ section {
 }
 
 .skill-icon {
-    margin-bottom: .3rem;
+    margin-bottom: .5rem;
     min-height: 76px;
 }
 
@@ -319,7 +501,8 @@ section {
 
 .skill-description {
     line-height: 1.4rem;
-    padding: 2rem 8vw;
+
+    padding: 1.5rem 8vw;
     text-align: center;
     font-weight: lighter;
     font-size: 1rem;
