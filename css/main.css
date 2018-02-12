@@ -293,8 +293,8 @@ section {
     background-image: url("../img/shape.png");
     background-size: initial;
     background-repeat: no-repeat;
-    background-position-x: 100%;
-    background-position-y: 0;
+    background-position-x: right;
+    background-position-y: top;
 
 }
 
@@ -376,8 +376,8 @@ section {
     background-image: url("../img/shape-down.png");
     background-size: initial;
     background-repeat: no-repeat;
-    background-position-x: -1rem;
-    background-position-y: 100%;
+    background-position-x: left;
+    background-position-y: bottom;
 
 }
 
