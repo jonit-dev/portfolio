@@ -43,7 +43,7 @@ $(function() {
 
                     // do something
                     $('.education-box-wrapper').css('margin-left', `${marginValue}rem`);
-                    marginValue += 0.2;
+                    marginValue += 0.3;
 
                 }
 
@@ -51,7 +51,7 @@ $(function() {
 
                     // do something
                     $('.interests-box-wrapper').css('margin-left', `${marginValue2}rem`);
-                    marginValue2 -= 0.2;
+                    marginValue2 -= 0.3;
 
                 }
 

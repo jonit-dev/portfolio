@@ -385,6 +385,7 @@ section {
     font-weight: bolder;
     color:#393E41;
     font-size:1rem;
+
 }
 
 .interests-box-title p{
@@ -408,14 +409,6 @@ section {
     margin-bottom:2rem;
 }
 
-.interests-box-hr{
-    width:93%;
-    height:1px;
-    background-color:#E4E4EA;
-
-    margin:2rem;
-
-}
 
 
 
@@ -445,6 +438,8 @@ section {
         padding-right:0;
         margin-left:24rem;
     }
+
+
 
 }
 
@@ -541,6 +536,18 @@ footer {
     background-position:initial;
     background-size: cover;
 }
+
+
+/*MOBILE ONLY CODE*/
+@media screen and (max-width: 700px) {
+
+    footer {
+        margin-top: 2rem;
+    }
+
+}
+
+
 
 .contact-wrapper {
     width:auto;
