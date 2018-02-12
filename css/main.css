@@ -50,8 +50,6 @@ section {
 /*Section Background Paralax Effect*/
 .paralax {
     /* The image used */
-    background-image: url("../img/background.jpg");
-
     width: 100%;
     /*Align section-title in middle*/
 
@@ -59,9 +57,7 @@ section {
     height: 100vh;
 
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url("../img/background.jpg") no-repeat fixed center;
     background-size: cover;
 
 }
@@ -293,17 +289,16 @@ section {
 
 
 .education-box {
-    background-color:#F5F5F5;
-   width:100%;
+    width:100%;
     height:auto;
     min-height: 12rem;
     margin-top:2rem;
     padding:2rem;
-    background-image: url("../img/shape.png");
     background-size: initial;
-    background-repeat: no-repeat;
+    background: #F5F5F5 url("../img/shape.png") no-repeat;
     background-position-x: right;
     background-position-y: top;
+    padding:1rem;
 
 }
 
@@ -332,36 +327,11 @@ section {
     margin-top:1rem;
 }
 
-
-
-/*MOBILE ONLY CODE*/
-@media screen and (max-width: 700px) {
-
-    .education-box-wrapper {
-        padding-left:1rem;
-        padding-right:1rem;
-    }
-
-    .education-box {
-        padding:1rem;
-    }
-
-
+.education-box-wrapper {
+    padding-left:1rem;
+    padding-right:1rem;
 }
 
-/*DESKTOP ONLY CODE*/
-
-@media screen and (min-width: 700px) {
-
-    .education-box-wrapper {
-        width:75%;
-        margin-top:2rem;
-        padding-left:11rem;
-        padding-right:0;
-        margin-left:-11rem;
-    }
-
-}
 
 
 
@@ -377,16 +347,17 @@ section {
 
 .interests-box {
     background-color:#F5F5F5;
-    width:51vw;
+    width:100%;
     height:auto;
     min-height: 12rem;
     margin-top:2rem;
-    padding:2rem;
+    padding:1rem;
     background-image: url("../img/shape-down.png");
     background-size: initial;
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: bottom;
+
 
 }
 
@@ -418,42 +389,25 @@ section {
     margin-bottom:2rem;
 }
 
-
-
-
-/*MOBILE ONLY CODE*/
-@media screen and (max-width: 700px) {
-
-    .interests-box-wrapper {
-        padding-left:1rem;
-        padding-right:1rem;
-    }
-
-    .interests-box {
-        padding:1rem;
-    }
-
-
-}
-
-/*DESKTOP ONLY CODE*/
-
-@media screen and (min-width: 700px) {
-
-    .interests-box-wrapper {
-
-        width:75%;
-        margin-top:2rem;
-        padding-left:11rem;
-        padding-right:0;
-        margin-left:15rem;
-    }
-
-
-
+.interests-box-wrapper {
+    padding-left:1rem;
+    padding-right:1rem;
 }
 
 
+ /*DESKTOP ONLY CODE*/
+
+ @media screen and (min-width: 700px) {
+
+  .education-box-wrapper, .interests-box-wrapper {
+      padding-left:14vw;
+      padding-right:14vw;
+  }
+     .education-box-title h2, .education-box-title p, .interests-box-title h2 {
+         text-align:center;
+     }
+
+ }
 
     /* ------------------------------------------------------------|
     | SKILLS
