@@ -18,6 +18,8 @@ p {
 }
 
 
+
+
 /* ------------------------------------------------------------|
 | PARTICLEJS
 *-------------------------------------------------------------*/
@@ -60,6 +62,8 @@ section {
     background: url("../img/background.jpg") no-repeat fixed center;
     background-size: cover;
 
+
+
 }
 
 /* SECTIONS =========================================== */
@@ -89,9 +93,7 @@ section {
 
 /* END SECTIONS =========================================== */
 
-.section-scroll {
-    padding-top: 90vh;
-}
+
 
 .section-cta {
     margin-top: 10vh;
